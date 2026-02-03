@@ -1,28 +1,39 @@
 # Documentação do Agente
 
+> Visão Geral
+
+O chatbot atua como um copiloto financeiro, monitorando gastos, analisando tendências de saldo e sugerindo ações simples antes que o problema aconteça.
+
+⚠️ Importante: o chatbot não realiza aconselhamento financeiro, não recomenda investimentos e não promete retornos financeiros.
 ## Caso de Uso
 
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-[Sua descrição aqui]
+Muitos usuários entram no cheque especial ou atrasam contas porque:
+- não acompanham gastos diariamente;
+- não percebem mudanças no padrão de consumo;
+- tomam decisões tarde de mais;
+- objetivo principal: evita que o usuario fique sem saldo no fim do mês.
+
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-[Sua descrição aqui]
+Antecipa riscos de saldo negativo, auxilia na tomada de decisão financeira diária e evitar juros, atrasos e descontrole financeiro.
+
 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-[Sua descrição aqui]
+Pessoas físicas com conta em banco, que desejam mais controle financeiro, mas não usam planilhas.
 
 ---
 
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-[Nome escolhido]
+Saldi (Saldo Inteligente)
 
 ### Personalidade
 > Como o agente se comporta? (ex: consultivo, direto, educativo)
