@@ -36,19 +36,21 @@ Pessoas físicas com conta em banco, que desejam mais controle financeiro, mas n
 Saldi (Saldo Inteligente)
 
 ### Personalidade
-> Como o agente se comporta? (ex: consultivo, direto, educativo)
+> Como o agente se comporta? 
 
-[Sua descrição aqui]
+- Informativo
+- Empático
+- Não julga os gastos dos clientes.
 
 ### Tom de Comunicação
 > Formal, informal, técnico, acessível?
 
-[Sua descrição aqui]
+Linguagem de comunicação acessível e de facil compreensão aos usuarios do chatbot.
 
 ### Exemplos de Linguagem
-- Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]
-- Confirmação: [ex: "Entendi! Deixa eu verificar isso para você."]
-- Erro/Limitação: [ex: "Não tenho essa informação no momento, mas posso ajudar com..."]
+- Saudação: ex: "Olá! 👋 sou Saldi, seu assistente financeiro. Estou aqui para te ajudar a acompanhar seus gastos, entender seu saldo e evitar surpresas no fim do mês."
+- Confirmação: ex: "Perfeito! Vou buscar seus gastos recentes para te mostrar, ok? ."
+- Erro/Limitação: ex: "No momento, não realizo recoendações financeiras, mas posso te ajudar a analisar seus gastos ou saldo."
 
 ---
 
@@ -70,10 +72,10 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
-| LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
-| Validação | [ex: Checagem de alucinações] |
+| Interface | Chatbot em Streamlit |
+| LLM | Ollama (local)  |
+| Base de Conhecimento | JSON/CSV com dados do cliente |
+| Validação | Checagem de alucinações |
 
 ---
 
@@ -81,12 +83,16 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+- [x] Agente só responde com base nos dados fornecidos.
+- [x] Não realiza recomendações financeiras.
+- [x] Admite quando não sabe algo.
+- [x] Foca em informar, não em aconselhar.
+      
 
 ### Limitações Declaradas
-> O que o agente NÃO faz?
+> O que o agente não faz?
 
-[Liste aqui as limitações explícitas do agente]
+- Não concede e nem negocia crédito.
+- Não executa transações financeiras
+- Não acessa dados sem consentimento.
+- Não faz julgamento sobre o usuário.
