@@ -3,23 +3,22 @@
 ## Dados Utilizados
 
 
-| Arquivo | Formato | Utilização no Agente |
+| Arquivo | Formato | Para treinamento do agente |
 |---------|---------|---------------------|
-| `historico_atendimento.csv` | CSV | Contextualizar interações anteriores |
-| `perfil_investidor.json` | JSON | Personalizar recomendações |
-| `produtos_financeiros.json` | JSON | Sugerir produtos adequados ao perfil |
+| `transacao_financeira_sample_set_1.csv` | CSV | Simula transações financeiras |
+| `transacoes_orçamentaria_pessoal.csv` | CSV | Simula extrato e calcula gastos mensais |
 | `transacoes.csv` | CSV | Analisar padrão de gastos do cliente |
 
-> [!TIP]
-> **Quer um dataset mais robusto?** Você pode utilizar datasets públicos do [Hugging Face](https://huggingface.co/datasets) relacionados a finanças, desde que sejam adequados ao contexto do desafio.
+fonte de dados: Kaggle e Hugging Face.
 
 ---
 
 ## Adaptações nos Dados
 
-> Você modificou ou expandiu os dados mockados? Descreva aqui.
+> Você modificou ou expandiu os dados mockados? 
 
-[Sua descrição aqui]
+Os dados utilizados foram modificados com a inserção  de dados pertinentes a funcionalidade prevista para o agente financeiro, como o de transações financeiras, geradas sinteticamente
+para teinamento e desenvolvimento de IA/ML.
 
 ---
 
