@@ -17,17 +17,21 @@ fonte de dados: Kaggle e Hugging Face.
 
 > Você modificou ou expandiu os dados mockados? 
 
-Os dados utilizados foram modificados com a inserção  de dados pertinentes a funcionalidade prevista para o agente financeiro, como o de transações financeiras, geradas sinteticamente
-para teinamento e desenvolvimento de IA/ML.
+Os dados utilizados foram modificados com a inserção  de dados pertinentes a funcionalidade prevista para o agente financeiro, como o de transações financeiras , geradas sinteticamente
+para teinamento e desenvolvimento de IA/ML. Além de dados de transações de orçamento pessoal.
 
----
 
 ## Estratégia de Integração
 
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
+...python
+import pandas as pd
+import json
 
-[ex: Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt]
+#csv
+
+...
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
