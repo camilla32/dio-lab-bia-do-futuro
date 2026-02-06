@@ -25,18 +25,13 @@ para teinamento e desenvolvimento de IA/ML. Além de dados de transações de or
 
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
-...python
-import pandas as pd
-import json
 
-#csv
-
-...
+Carregando via codigo em python ou diretamente nos prompts usando o atalho CTRL + C e CTRL + V.
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
 
-[Sua descrição aqui]
+Para simplificar , podemos simplesmente "injetar"os dados no prompt, garantindo que o agente tenha o melhor contexto possivel.
 
 ---
 
