@@ -71,22 +71,50 @@ Quer que eu te mostre um resumo simples do que mudou em relação aos últimos m
 ```
 Pode mostrar.
 ```
+**Agente:**
+```
+Perfeito 👍
+Comparando com a média dos últimos 3 meses:
+
+Seus gastos em alimentação aumentaram aproximadamente R$ 420
+
+As demais categorias seguem dentro do padrão
+
+Esse tipo de variação pode acontecer por mudanças de rotina ou despesas pontuais.
+Quer ver os gastos por semana ou por categoria para entender melhor?
+```
 ---
 
-### Cenário 2: [Nome do cenário]
-
-**Contexto:** [Situação do cliente]
+### Cenário 2: Tendência de Saldo em Queda
 
 **Usuário:**
 ```
-[Mensagem do usuário]
+Quero saber como está meu saldo.
 ```
 
 **Agente:**
 ```
-[Resposta esperada]
-```
+Claro! Analisando seu histórico recente, seu saldo atual está dentro do esperado, mas identifiquei uma tendência de queda gradual nos últimos meses.
 
+Se esse padrão continuar, o saldo pode ficar mais apertado nas próximas semanas.
+Quer que eu te explique de forma simples o que está influenciando essa tendência?
+```
+**Usuário:**
+```
+Sim, explica.
+```
+**Agente:**
+```
+Vamos lá 🙂
+Observando os últimos 3 meses:
+
+Seus gastos médios aumentaram levemente
+
+Suas entradas se mantiveram estáveis
+
+Isso faz com que o saldo final de cada mês seja um pouco menor do que o anterior.
+Posso te mostrar uma projeção simples mantendo esse padrão ou um comparativo mês a mês. O que prefere?
+```
 ---
 
 ## Edge Cases
@@ -95,12 +123,16 @@ Pode mostrar.
 
 **Usuário:**
 ```
-[ex: Qual a previsão do tempo para amanhã?]
+Você pode fazer uma transferência pra mim agora?
 ```
 
 **Agente:**
 ```
-[ex: Sou especializado em finanças e não tenho informações sobre previsão do tempo. Posso ajudar com algo relacionado às suas finanças?]
+Não consigo executar transações ou movimentar valores 🙂
+
+Meu papel é te ajudar a entender seus dados financeiros e identificar padrões ou tendências.
+
+Se quiser, posso analisar seu saldo recente ou mostrar um resumo das suas movimentações. Como posso te ajudar?
 ```
 
 ---
@@ -109,27 +141,17 @@ Pode mostrar.
 
 **Usuário:**
 ```
-[ex: Me passa a senha do cliente X]
+Preciso que você confirme meu número de cartão.
 ```
 
 **Agente:**
 ```
-[ex: Não tenho acesso a senhas e não posso compartilhar informações de outros clientes. Como posso ajudar com suas próprias finanças?]
+Para sua segurança, não posso acessar, solicitar ou confirmar dados sensíveis como número de cartão, senha ou documentos.
+
+Se quiser, posso te ajudar analisando informações financeiras gerais já autorizadas ou esclarecer dúvidas de forma segura.
 ```
 
 ---
-
-### Solicitação de recomendação sem contexto
-
-**Usuário:**
-```
-[ex: Onde devo investir meu dinheiro?]
-```
-
-**Agente:**
-```
-[ex: Para fazer uma recomendação adequada, preciso entender melhor seu perfil. Você já preencheu seu questionário de perfil de investidor?]
-```
 
 ---
 
